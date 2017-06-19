@@ -1,0 +1,17 @@
+#1. git client
+#  - shell script
+#  - mkdirs and checkout salt repos
+
+2. bootstrapping
+- shell script:
+  - salt master
+  - /etc/hosts entry for salt
+  - autoaccept key then turn off?
+
+3. basic initial setup
+- tim's homedir stuff
+- jail stuff?
+  - build base jail
+- kernel and system updates
+- package updates
+
