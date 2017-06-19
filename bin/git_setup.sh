@@ -11,7 +11,7 @@ fi
 
 cat > /usr/local/etc/sudoers << EOF
 root ALL=(ALL) ALL
-%wheel ALL=(ALL) NOPASSWD
+%wheel ALL=(ALL) NOPASSWD:ALL
 EOF
 
 pw groupmod wheel -m tim
